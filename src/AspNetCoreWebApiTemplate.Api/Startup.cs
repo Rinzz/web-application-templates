@@ -1,6 +1,7 @@
-namespace AspNetCoreApiTemplate.Api
+namespace AspNetCoreWebApiTemplate.Api
 {
     using Data;
+    using Data.Models;
     using Infrastructure;
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Builder;
@@ -9,10 +10,8 @@ namespace AspNetCoreApiTemplate.Api
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
-    using Microsoft.Extensions.Hosting;
     using Microsoft.IdentityModel.Tokens;
     using System.Text;
-    using Data.Models;
 
     public class Startup
     {

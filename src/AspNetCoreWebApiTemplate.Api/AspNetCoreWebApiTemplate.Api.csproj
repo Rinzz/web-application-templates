@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <UserSecretsId>aspnet-AspNetCoreApiTemplate.Api-78101964-F05E-4E6F-8170-728989867C5F</UserSecretsId>
+    <UserSecretsId>aspnet-AspNetCoreWebApiTemplate.Api-78101964-F05E-4E6F-8170-728989867C5F</UserSecretsId>
   </PropertyGroup>
 
 

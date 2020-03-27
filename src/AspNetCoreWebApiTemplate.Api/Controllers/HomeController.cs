@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreApiTemplate.Api.Controllers
+﻿namespace AspNetCoreWebApiTemplate.Api.Controllers
 {
     using Microsoft.AspNetCore.Authorization;
     using Microsoft.AspNetCore.Mvc;

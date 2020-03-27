@@ -1,4 +1,4 @@
-namespace AspNetCoreApiTemplate.Api
+namespace AspNetCoreWebApiTemplate.Api
 {
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.Extensions.Hosting;

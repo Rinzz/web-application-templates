@@ -1,8 +1,7 @@
-﻿namespace AspNetCoreApiTemplate.Api.Data
+﻿namespace AspNetCoreWebApiTemplate.Api.Data
 {
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;
-
     using Models;
 
     public class AppDbContext : IdentityDbContext<User>

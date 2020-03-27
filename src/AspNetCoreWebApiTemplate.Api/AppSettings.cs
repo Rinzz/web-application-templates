@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreApiTemplate.Api
+﻿namespace AspNetCoreWebApiTemplate.Api
 {
     public class AppSettings
     {

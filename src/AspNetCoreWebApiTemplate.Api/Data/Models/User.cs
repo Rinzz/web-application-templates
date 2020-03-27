@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreApiTemplate.Api.Data.Models
+﻿namespace AspNetCoreWebApiTemplate.Api.Data.Models
 {
     using Microsoft.AspNetCore.Identity;
 

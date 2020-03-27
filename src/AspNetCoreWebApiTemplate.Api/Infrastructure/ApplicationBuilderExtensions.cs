@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreApiTemplate.Api.Infrastructure
+﻿namespace AspNetCoreWebApiTemplate.Api.Infrastructure
 {
     using Data;
     using Microsoft.AspNetCore.Builder;
