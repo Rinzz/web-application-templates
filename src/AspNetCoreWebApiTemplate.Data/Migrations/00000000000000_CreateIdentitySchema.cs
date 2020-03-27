@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreWebApiTemplate.Api.Data.Migrations
+﻿namespace AspNetCoreWebApiTemplate.Data.Migrations
 {
     using System;
     using Microsoft.EntityFrameworkCore.Metadata;

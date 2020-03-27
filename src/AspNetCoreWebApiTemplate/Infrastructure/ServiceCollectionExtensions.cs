@@ -1,8 +1,8 @@
-﻿namespace AspNetCoreWebApiTemplate.Api.Infrastructure
+﻿namespace AspNetCoreWebApiTemplate.Infrastructure
 {
-    using AspNetCoreWebApiTemplate.Services.Common;
-    using Microsoft.Extensions.DependencyInjection;
     using System.Linq;
+    using Microsoft.Extensions.DependencyInjection;
+    using Services.Common;
 
     public static class ServiceCollectionExtensions
     {

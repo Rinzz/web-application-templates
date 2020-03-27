@@ -1,6 +1,6 @@
-﻿namespace AspNetCoreWebApiTemplate.Api.Controllers
+﻿namespace AspNetCoreWebApiTemplate.Controllers
 {
-    using Api;
+    using Common;
     using Data.Models;
     using Microsoft.AspNetCore.Identity;
     using Microsoft.AspNetCore.Mvc;

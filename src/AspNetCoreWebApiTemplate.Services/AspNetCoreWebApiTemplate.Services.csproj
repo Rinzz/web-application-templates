@@ -9,4 +9,13 @@
     <Folder Include="Models\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AspNetCoreWebApiTemplate.Common\AspNetCoreWebApiTemplate.Common.csproj" />
+    <ProjectReference Include="..\AspNetCoreWebApiTemplate.Data\AspNetCoreWebApiTemplate.Data.csproj" />
+  </ItemGroup>
+
 </Project>

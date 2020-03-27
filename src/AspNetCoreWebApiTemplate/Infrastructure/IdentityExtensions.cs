@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreWebApiTemplate.Api.Infrastructure
+﻿namespace AspNetCoreWebApiTemplate.Infrastructure
 {
     using System.Linq;
     using System.Security.Claims;

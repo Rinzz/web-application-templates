@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreWebApiTemplate.Api.Data
+﻿namespace AspNetCoreWebApiTemplate.Data
 {
     using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
     using Microsoft.EntityFrameworkCore;

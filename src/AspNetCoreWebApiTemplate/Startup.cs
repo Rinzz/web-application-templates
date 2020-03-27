@@ -1,6 +1,7 @@
-namespace AspNetCoreWebApiTemplate.Api
+namespace AspNetCoreWebApiTemplate
 {
     using AutoMapper;
+    using Common;
     using Data;
     using Data.Models;
     using Infrastructure;
@@ -23,7 +24,7 @@ namespace AspNetCoreWebApiTemplate.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(Configuration.GetDefaultConnectionString());
+                options.UseSqlServer(Configuration.GetDefaultConnectionString()));
 
             services
                 .AddIdentity<User, IdentityRole>(options =>

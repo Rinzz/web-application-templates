@@ -1,9 +1,9 @@
-﻿namespace AspNetCoreWebApiTemplate.Api.Infrastructure
+﻿namespace AspNetCoreWebApiTemplate.Infrastructure
 {
-    using AutoMapper;
-    using Common.Mapping;
     using System;
     using System.Linq;
+    using AutoMapper;
+    using Common.Mapping;
 
     public class ConventionalMappingProfile : Profile
     {

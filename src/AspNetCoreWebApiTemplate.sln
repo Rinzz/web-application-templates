@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29911.84
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWebApiTemplate.Api", "AspNetCoreWebApiTemplate.Api\AspNetCoreWebApiTemplate.Api.csproj", "{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTemplate.Data", "AspNetCoreWebApiTemplate.Data\AspNetCoreWebApiTemplate.Data.csproj", "{E837D2AC-6B9F-408D-86EB-1834251808FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTemplate.Services", "AspNetCoreWebApiTemplate.Services\AspNetCoreWebApiTemplate.Services.csproj", "{AA9FD2CB-95B3-40E0-B21E-8C219172424E}"
@@ -14,6 +12,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTemplate.Controllers", "AspNetCoreWebApiTemplate.Controllers\AspNetCoreWebApiTemplate.Controllers.csproj", "{DB230631-7A23-4F94-B3D3-335D1ADD9988}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreWebApiTemplate.Tests", "AspNetCoreWebApiTemplate.Tests\AspNetCoreWebApiTemplate.Tests.csproj", "{78E85F0B-C58C-4D47-8F18-22C90C02E78F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreWebApiTemplate", "AspNetCoreWebApiTemplate\AspNetCoreWebApiTemplate.csproj", "{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,18 +25,6 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Debug|x64.Build.0 = Debug|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Debug|x86.Build.0 = Debug|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Release|x64.ActiveCfg = Release|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Release|x64.Build.0 = Release|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Release|x86.ActiveCfg = Release|Any CPU
-		{6D5C12E0-9DEE-49BF-8CBA-3876B9C46093}.Release|x86.Build.0 = Release|Any CPU
 		{E837D2AC-6B9F-408D-86EB-1834251808FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E837D2AC-6B9F-408D-86EB-1834251808FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E837D2AC-6B9F-408D-86EB-1834251808FB}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -97,6 +85,18 @@ Global
 		{78E85F0B-C58C-4D47-8F18-22C90C02E78F}.Release|x64.Build.0 = Release|Any CPU
 		{78E85F0B-C58C-4D47-8F18-22C90C02E78F}.Release|x86.ActiveCfg = Release|Any CPU
 		{78E85F0B-C58C-4D47-8F18-22C90C02E78F}.Release|x86.Build.0 = Release|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Debug|x64.Build.0 = Debug|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Debug|x86.Build.0 = Debug|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Release|x64.ActiveCfg = Release|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Release|x64.Build.0 = Release|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Release|x86.ActiveCfg = Release|Any CPU
+		{A8713A9B-0D77-4AB0-B39C-0F49F9993CFF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
