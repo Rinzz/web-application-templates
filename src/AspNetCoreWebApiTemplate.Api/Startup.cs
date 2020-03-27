@@ -1,5 +1,6 @@
 namespace AspNetCoreWebApiTemplate.Api
 {
+    using AutoMapper;
     using Data;
     using Data.Models;
     using Infrastructure;
@@ -22,7 +23,7 @@ namespace AspNetCoreWebApiTemplate.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<AppDbContext>(options =>
-                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetDefaultConnectionString());
 
             services
                 .AddIdentity<User, IdentityRole>(options =>
@@ -61,6 +62,10 @@ namespace AspNetCoreWebApiTemplate.Api
                 });
 
             services.AddControllers();
+
+            services.AddConventionalServices();
+
+            services.AddAutoMapper(this.GetType());
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
