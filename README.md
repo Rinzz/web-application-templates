@@ -2,4 +2,6 @@
 
 A ready-to-use template for ASP.NET Core WebApi services, models mapping, JWT token authentication, DI with Folder-By-Type project structure.
 
-## Build status
+# Template Renamer
+
+Simple console application can be used to renaming the template.
