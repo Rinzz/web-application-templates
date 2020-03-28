@@ -71,7 +71,7 @@ namespace AspNetCoreWebApiTemplate
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
-                app.UseDeveloperExceptionPage();
+            app.UseDeveloperExceptionPage();
             
             app.UseRouting();
 

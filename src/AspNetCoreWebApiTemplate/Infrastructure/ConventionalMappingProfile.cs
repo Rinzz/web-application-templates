@@ -13,10 +13,12 @@
             var mapToType = typeof(IMapTo<>);
             var explicitMapType = typeof(IHaveCustomMapping);
 
+            var assemblyName = typeof(Program).Assembly.GetName().Name;
+
             var modelRegistrations = AppDomain
                 .CurrentDomain
                 .GetAssemblies()
-                .Where(a => a.GetName().Name.StartsWith("AspNetCoreWebApiTemplate."))
+                .Where(a => a.GetName().Name.StartsWith(assemblyName))
                 .SelectMany(a => a.GetExportedTypes())
                 .Where(t => t.IsClass && !t.IsAbstract)
                 .Select(t => new
