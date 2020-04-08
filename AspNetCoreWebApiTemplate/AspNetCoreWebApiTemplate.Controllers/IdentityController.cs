@@ -15,11 +15,11 @@
 
     public class IdentityController : ApiController
     {
-        private readonly UserManager<User> _userManager;
+        private readonly UserManager<AppUser> _userManager;
         private readonly AppSettings _appSettings;
 
         public IdentityController(
-            UserManager<User> userManager,
+            UserManager<AppUser> userManager,
             IOptions<AppSettings> appSettings)
         {
             _userManager = userManager;
@@ -29,7 +29,7 @@
         [Route(nameof(Register))]
         public async Task<ActionResult> Register(RegisterRequestModel model)
         {
-            var user = new User
+            var user = new AppUser
             {
                 Email = model.Email,
                 UserName = model.UserName

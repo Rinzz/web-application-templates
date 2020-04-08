@@ -1,5 +1,7 @@
-namespace AspNetCoreWebApiTemplate
+namespace AspNetCoreWebApiTemplate.Web
 {
+    using System.Text;
+    using AspNetCoreWebApiTemplate.Infrastructure;
     using AutoMapper;
     using Common;
     using Data;
@@ -13,7 +15,6 @@ namespace AspNetCoreWebApiTemplate
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.IdentityModel.Tokens;
-    using System.Text;
 
     public class Startup
     {
@@ -27,7 +28,7 @@ namespace AspNetCoreWebApiTemplate
                 options.UseSqlServer(Configuration.GetDefaultConnectionString()));
 
             services
-                .AddIdentity<User, IdentityRole>(options =>
+                .AddIdentity<AppUser, IdentityRole>(options =>
                 {
                     options.Password.RequiredLength = 6;
                     options.Password.RequireDigit = false;

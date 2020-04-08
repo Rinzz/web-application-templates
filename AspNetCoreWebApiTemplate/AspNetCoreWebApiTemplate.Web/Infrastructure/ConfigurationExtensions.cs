@@ -1,4 +1,4 @@
-﻿namespace AspNetCoreWebApiTemplate.Infrastructure
+﻿namespace AspNetCoreWebApiTemplate.Web.Infrastructure
 {
     using Microsoft.Extensions.Configuration;
 
