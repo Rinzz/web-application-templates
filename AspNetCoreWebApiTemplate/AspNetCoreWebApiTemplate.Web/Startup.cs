@@ -1,12 +1,11 @@
 namespace AspNetCoreWebApiTemplate.Web
 {
-    using System.Text;
-    using AspNetCoreWebApiTemplate.Infrastructure;
-    using AutoMapper;
     using Common;
     using Data;
     using Data.Models;
     using Infrastructure;
+    
+    using AutoMapper;
     using Microsoft.AspNetCore.Authentication.JwtBearer;
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
@@ -15,6 +14,8 @@ namespace AspNetCoreWebApiTemplate.Web
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.IdentityModel.Tokens;
+    
+    using System.Text;
 
     public class Startup
     {
@@ -90,6 +91,7 @@ namespace AspNetCoreWebApiTemplate.Web
             });
 
             app.ApplyMigrations();
+            app.SeedData();
         }
     }
 }
